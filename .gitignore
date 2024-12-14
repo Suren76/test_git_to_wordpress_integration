@@ -1,0 +1,20 @@
+# Ignore WordPress core files
+/wp-admin/
+/wp-includes/
+
+# Ignore uploads and cache
+/wp-content/uploads/
+/wp-content/cache/
+
+# Ignore sensitive files
+wp-config.php
+
+# Ignore environment-specific files
+.env
+.htaccess
+
+# Ignore IDE config files
+*.sublime-project
+*.sublime-workspace
+.vscode/
+
